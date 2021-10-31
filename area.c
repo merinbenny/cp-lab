@@ -2,12 +2,12 @@
 void main()
 {
 	int area,perimeter,len,bre;
-	printf("enter length and breadth");
+	printf("enter Length and Breadth");
 	scanf("%d%d",&len,&bre);
 	area=len*bre;
 	perimeter=2*(len+bre);
 	if(area>perimeter)
-		printf("area is greater than perimeter");
+		printf("Area is greater than perimeter");
 	else
-		printf("perimeter is greater than area");
+		printf("Perimeter is greater than area");
 }
